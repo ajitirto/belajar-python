@@ -6,7 +6,7 @@ def bubleSort(val):
                 temp = val[i]
                 val[i] = val[i+1]
                 val[i+1] = temp
-'''Bubble sort mungkin metode sorting paling populer yang digunakan dan sederhana. Proses pengurutan dilakukan dengan membandingkan masing-masing nilai dalam suatu list secara berpasangan, kemudian tukar nilai jika diperlukan, dan mengulanginya sampai akhir list secara berurutan, sehingga tidak ada lagi nilai yang dapat ditukar.'''
+'''Bubble sort mungkin metode sorting a paling populer yang digunakan dan sederhana. Proses pengurutan dilakukan dengan membandingkan masing-masing nilai dalam suatu list secara berpasangan, kemudian tukar nilai jika diperlukan, dan mengulanginya sampai akhir list secara berurutan, sehingga tidak ada lagi nilai yang dapat ditukar.'''
 def selectionSort(val):
     for isi in range(len(val)-1,0,-1):
         max=0
